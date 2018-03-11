@@ -57,5 +57,5 @@ define Package/GoQuiet-server/install
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/src/GoQuiet-server $(1)/usr/bin
 endef
 
-$(eval $(call BuildPackage,sGoQuiet-client))
+$(eval $(call BuildPackage,GoQuiet-client))
 $(eval $(call BuildPackage,GoQuiet-server))
